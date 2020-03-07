@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>QuizSystem</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md fixed-top">
+        <div class="container">
+            <a href="index.html">
+                <img id="logo" src="assets/img/1200px-King_Fahd_University_of_Petroleum_&_Minerals_Logo.svg.png">
+                <a class="navbar-brand" href="index.html">KFUPM Quizzes</a>
+            </a>
+            <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav"></ul>
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="countdown"></div>
+    <div class="group-one box" style="display: block;">
+        <h2 class="main-section">Part 1
+        </h2>
+
+
+        <form>
+            <div class='question1'>
+                <h3 id='question'>Brass gets discoloured in air because of the presence of which of the following gases in air?</h3>
+                <fieldset id="group1">
+                    <div class="option custom-control custom-radio">
+                        <input class="custom-control-input" id="rb1" name="group1" type="radio" value="1">
+                        <label for="rb1" class="custom-control-label option-text">Hydrogen Sulphide</label>
+                    </div>
+
+                    <div class="option custom-control custom-radio">
+                        <input class="custom-control-input" id="rb2" name="group1" type="radio" value="2">
+                        <label for="rb2" class="custom-control-label option-text">Oxygen</label>
+                    </div>
+
+                    <div class="option custom-control custom-radio">
+                        <input class="custom-control-input" id="rb3" name="group1" type="radio" value="3">
+                        <label for="rb3" class="custom-control-label option-text">Carbon Dioxide</label>
+                    </div>
+
+                    <div class="option custom-control custom-radio">
+                        <input class="custom-control-input" id="rb4" name="group1" type="radio" value="4">
+                        <label for="rb4" class="custom-control-label option-text">Nitrogen</label>
+                    </div>
+                </fieldset>
+
+            </div>
+
+            <div class='question2 hide'>
+                <h3 id='question'>Which of the following is a non metal that remains liquid at room temperature?</h3>
+                <fieldset id="group2">
+
+                    <div class="option custom-control custom-radio">
+                        <input class="custom-control-input" id="rb21" name="group2" type="radio" value="1">
+                        <label for="rb21" class="custom-control-label option-text">Bromine</label>
+                    </div>
+
+                    <div class="option custom-control custom-radio">
+                        <input class="custom-control-input" id="rb22" name="group2" type="radio" value="2">
+                        <label for="rb22" class="custom-control-label option-text">Phosporous</label>
+                    </div>
+
+                    <div class="option custom-control custom-radio">
+                        <input class="custom-control-input" id="rb23" name="group2" type="radio" value="3">
+                        <label for="rb23" class="custom-control-label option-text">Chlorine</label>
+                    </div>
+
+                    <div class="option custom-control custom-radio">
+                        <input class="custom-control-input" id="rb24" name="group2" type="radio" value="4">
+                        <label for="rb24" class="custom-control-label option-text">Hellium</label>
+                    </div>
+                </fieldset>
+            </div>
+
+            <div class='question3 hide'>
+                <h3 id='question'>Chlorophyll is a naturally occurring chelate compound in which central metal is</h3>
+                <fieldset id="group3">
+
+                    <div class="option custom-control custom-radio">
+                        <input class="custom-control-input" id="rb31" name="group3" type="radio" value="1">
+                        <label for="rb31" class="custom-control-label option-text">Magnesium</label>
+                    </div>
+
+                    <div class="option custom-control custom-radio">
+                        <input class="custom-control-input" id="rb32" name="group3" type="radio" value="2">
+                        <label for="rb32" class="custom-control-label option-text">Copper</label>
+                    </div>
+
+                    <div class="option custom-control custom-radio">
+                        <input class="custom-control-input" id="rb33" name="group3" type="radio" value="3">
+                        <label for="rb33" class="custom-control-label option-text">Iron</label>
+                    </div>
+
+                    <div class="option custom-control custom-radio">
+                        <input class="custom-control-input" id="rb34" name="group3" type="radio" value="4">
+                        <label for="rb34" class="custom-control-label option-text">Calcium</label>
+                    </div>
+
+                </fieldset>
+
+            </div>
+
+            <div class='question4 hide'>
+                <h3 id='question'>Which of the following is used in pencils?</h3>
+                <fieldset id="group4">
+
+                    <div class="option custom-control custom-radio">
+                        <input class="custom-control-input" id="rb41" name="group4" type="radio" value="1">
+                        <label for="rb41" class="custom-control-label option-text">Graphite</label>
+                    </div>
+
+                    <div class="option custom-control custom-radio">
+                        <input class="custom-control-input" id="rb42" name="group4" type="radio" value="2">
+                        <label for="rb42" class="custom-control-label option-text">Sillicon</label>
+                    </div>
+
+                    <div class="option custom-control custom-radio">
+                        <input class="custom-control-input" id="rb43" name="group4" type="radio" value="3">
+                        <label for="rb43" class="custom-control-label option-text">Charcoal</label>
+                    </div>
+
+                    <div class="option custom-control custom-radio">
+                        <input class="custom-control-input" id="rb44" name="group4" type="radio" value="4">
+                        <label for="rb44" class="custom-control-label option-text">Phosphorous</label>
+                    </div>
+                </fieldset>
+
+
+            </div>
+
+            <div class='question5 hide'>
+                <h3 id='question'>Which of the following metals forms an amalgam with other metals?</h3>
+                <fieldset id="group5">
+
+                    <div class="option custom-control custom-radio">
+                        <input class="custom-control-input" id="rb51" name="group5" type="radio" value="1">
+                        <label for="rb51" class="custom-control-label option-text">Mercury</label>
+                    </div>
+
+                    <div class="option custom-control custom-radio">
+                        <input class="custom-control-input" id="rb52" name="group5" type="radio" value="2">
+                        <label for="rb52" class="custom-control-label option-text">Tin</label>
+                    </div>
+
+                    <div class="option custom-control custom-radio">
+                        <input class="custom-control-input" id="rb53" name="group5" type="radio" value="3">
+                        <label for="rb53" class="custom-control-label option-text">Lead</label>
+                    </div>
+
+                    <div class="option custom-control custom-radio">
+                        <input class="custom-control-input" id="rb54" name="group5" type="radio" value="4">
+                        <label for="rb54" class="custom-control-label option-text">Zinc</label>
+                    </div>
+                </fieldset>
+
+            </div>
+
+            <div class="buttons">
+                <input id='button' class="btn btn-danger btn-lg" onclick="prevq()" type="button" value="Previous">
+                <input id='button' class="btn btn-success btn-lg" onclick="nextq()" type="button" value="Next">
+            </div>
+        </form>
+    </div>
+
+
+
+    <div class="group-two box" style="display: none;">
+        <h2 class="main-section">Part 2
+        </h2>
+
+
+        <form>
+            <div class='question6'>
+                <h3 id='question'>What factors are important when buying software?</h3>
+                <fieldset id="group6">
+                    <div class="option custom-control custom-checkbox">
+                        <input name="group6" type="checkbox" class="custom-control-input" id="cb1" value="1">
+                        <label class="custom-control-label option-text" for="cb1">Price</label>
+                    </div>
+                    <div class="option custom-control custom-checkbox">
+                        <input name="group6" type="checkbox" class="custom-control-input" id="cb12" value="1">
+                        <label class="custom-control-label option-text" for="cb12">Usability</label>
+                    </div>
+                    <div class="option custom-control custom-checkbox">
+                        <input name="group6" type="checkbox" class="custom-control-input" id="cb13" value="1">
+                        <label class="custom-control-label option-text" for="cb13">Features</label>
+                    </div>
+                    <div class="option custom-control custom-checkbox">
+                        <input name="group6" type="checkbox" class="custom-control-input" id="cb14" value="1">
+                        <label class="custom-control-label option-text" for="cb14">Support</label>
+                    </div>
+                </fieldset>
+
+            </div>
+
+            <div class='question7 hide'>
+                <h3 id='question'>Identify the substances with ionic Bonding</h3>
+                <fieldset id="group7">
+                    <div class="option custom-control custom-checkbox">
+                        <input name="group7" type="checkbox" class="custom-control-input" id="cb21" value="1">
+                        <label class="custom-control-label option-text" for="cb21">Sodium Chloride</label>
+                    </div>
+                    <div class="option custom-control custom-checkbox">
+                        <input name="group7" type="checkbox" class="custom-control-input" id="cb22" value="1">
+                        <label class="custom-control-label option-text" for="cb22">Hydrogen Flouride</label>
+                    </div>
+                    <div class="option custom-control custom-checkbox">
+                        <input name="group7" type="checkbox" class="custom-control-input" id="cb23" value="1">
+                        <label class="custom-control-label option-text" for="cb23">Copper</label>
+                    </div>
+                    <div class="option custom-control custom-checkbox">
+                        <input name="group7" type="checkbox" class="custom-control-input" id="cb24" value="1">
+                        <label class="custom-control-label option-text" for="cb24">Oxygen</label>
+                    </div>
+                </fieldset>
+            </div>
+
+            <div class='question8 hide'>
+                <h3 id='question'>Chlorophyll is a naturally occurring chelate compound in which central metal is</h3>
+                <fieldset id="group8">
+
+                    <div class="option custom-control custom-checkbox">
+                        <input name="group8" type="checkbox" class="custom-control-input" id="cb31" value="1">
+                        <label class="custom-control-label option-text" for="cb31">Linear Momentum</label>
+                    </div>
+                    <div class="option custom-control custom-checkbox">
+                        <input name="group8" type="checkbox" class="custom-control-input" id="cb32" value="1">
+                        <label class="custom-control-label option-text" for="cb32">Energy</label>
+                    </div>
+                    <div class="option custom-control custom-checkbox">
+                        <input name="group8" type="checkbox" class="custom-control-input" id="cb33" value="1">
+                        <label class="custom-control-label option-text" for="cb33">Heat</label>
+                    </div>
+                    <div class="option custom-control custom-checkbox">
+                        <input name="group8" type="checkbox" class="custom-control-input" id="cb34" value="1">
+                        <label class="custom-control-label option-text" for="cb34">Velocity</label>
+
+                </fieldset>
+
+                </div>
+
+
+                <div class="buttons">
+                    <input id='button' class="btn btn-danger btn-lg" onclick="prevq()" type="button" value="Previous">
+                    <input id='button' class="btn btn-success btn-lg" onclick="nextq()" type="button" value="Next">
+                </div>
+        </form>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+    <div class="group-three box" style="display: none;">
+        <h2 class="main-section">Part 3
+        </h2>
+        <div class='question9'>
+
+            <h4>The
+                <span class="droppable ui-droppable" style="
+            padding-right: 100px;"></span> came before the
+                <span class="droppable ui-droppable"></span>
+            </h4>
+
+            <div class="draggable ui-draggable ui-draggable-handle" value="1" style="position: relative;">
+                Chicken</div>
+
+            <div class="draggable ui-draggable ui-draggable-handle" value="2" style="position: relative;">
+                Egg</div>
+        </div>
+        <div class='question10 hide'>
+
+            <h4>Leaders
+                <span class="droppable ui-droppable" style="
+        padding-right: 100px;"></span> Before they
+                <span class="droppable ui-droppable"></span>
+            </h4>
+
+            <div class="draggable ui-draggable ui-draggable-handle" value="1" style="position: relative;">
+                Execute</div>
+
+            <div class="draggable ui-draggable ui-draggable-handle" value="2" style="position: relative;">
+                Think</div>
+        </div>
+        <div class="buttons">
+            <input id='button' class="btn btn-danger btn-lg" onclick="prevq()" type="button" value="Previous">
+            <input id='button' class="btn btn-success btn-lg" onclick="nextq()" type="button" value="Next">
+        </div>
+    </div>
+
+    <div class="footer-basic">
+        <footer>
+            <div class="social">
+                <a href="#">
+                    <i class="icon ion-social-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="icon ion-social-snapchat"></i>
+                </a>
+                <a href="#">
+                    <i class="icon ion-social-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="icon ion-social-facebook"></i>
+                </a>
+            </div>
+            <ul class="list-inline">
+                <li class="list-inline-item">
+                    <a href="#">Home</a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#">Services</a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#">About</a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#">Terms</a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#">Privacy Policy</a>
+                </li>
+            </ul>
+            <p class="copyright">Sultan Lubbad's Quiz Company © 2020</p>
+        </footer>
+    </div>
+
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>

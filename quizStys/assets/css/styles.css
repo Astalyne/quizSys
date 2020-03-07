@@ -155,3 +155,85 @@ body {
   height: 150px;
 }
 
+
+.box {
+  width: 55%;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 30px 0px #00000061;
+  font-size: 1.3em;
+  background-color: #f8f8f8;
+  transition: all 1s;
+}
+.main-heading {
+  text-align: center;
+  margin: 75px 0 25px 0;
+  text-transform: uppercase;
+}
+
+.main-section {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 45px;
+  padding: 15px;
+  border-radius: 5px;
+  color: #000000;
+  border: 1px solid #cccccc;
+}
+.countdown {
+  height: 50px;
+  padding: 10px 0;
+  font-size: 2.5em;
+  text-align: center;
+
+}
+.result {
+  position: relative;
+  text-align: center;
+  margin: 50px 0;
+}
+.pie {
+  display: inline-block;
+  width: 30%;
+  margin: 0 1%;
+  padding: 1%;
+  text-align: center;
+  font-size: 1.4em;
+  border: 1px solid #c1c1c1;
+  border-radius: 10px;
+}
+
+.pie h4 {
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+
+.pie .total {
+  margin: 0;
+  color: #494949;
+}
+
+.pie .info {
+  margin: 15px 0;
+}
+
+.pie .info h5 {
+  display: inline;
+  margin: 0 4%;
+}
+
+.pie .info .correct {
+  color: #55cc55;
+}
+
+.pie .info .wrong {
+  color: #ff4c4c;
+}
+.wide {
+  width: 75%;
+}
+.group2-partial .pie {
+  width: 47%;
+}
